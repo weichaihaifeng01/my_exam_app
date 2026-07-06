@@ -1,0 +1,17 @@
+[project]
+name = "考题练习软件"          # 你的应用名称
+version = "1.0.0.0"             # 应用版本号
+description = "A simple exam practice app"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "Your Name", email = "you@example.com" }
+]
+dependencies = [
+    "flet",
+    "openpyxl",        # 你的代码中用到的库
+]
+
+[tool.flet]
+org = "com.weichai"      # 你的组织域名，反写，例如 com.example
+product = "考题练习软件"      # 应用在手机上显示的名称
